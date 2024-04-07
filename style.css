@@ -1,0 +1,268 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Inter", sans-serif;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.lang {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.material-symbols-outlined {
+    font-size: 1.2rem !important;
+}
+
+.instalogoo {
+    width: 20%;
+    margin: 30px 0px;
+}
+
+.instaform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+    width: 20%;
+    height: 40%;
+}
+
+.fb {
+    cursor: pointer;
+    width: auto;
+    color: white;
+    border-radius: 4px;
+    background-color: #2a7cff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    width: 100%;
+    margin-top: 30px;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+.fb > i 
+{
+    font-size: 1.5rem;
+}
+
+.line {
+    display: flex;
+    margin-top: 6px;
+    margin: 20px 0px;
+}
+
+.arrow {
+    background-color: rgb(162, 162, 162);
+    height: 0.5px;
+    width: 80px;
+    color: rgb(255, 254, 254);
+}
+
+.content {
+    color: rgb(115, 115, 115);
+    margin-top: -7px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.inputElement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    /* gap: 10px; */
+}
+
+.inputElement>.inputText {
+    width: 100%;
+    outline: none;
+    border: 1px solid rgb(184, 184, 184);
+    background-color: rgb(239, 239, 239);
+    padding: 10px;
+    font-size: 0.9rem;
+    height: 20px;
+    border-radius: 2px;
+}
+
+.passss {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #0098e3;
+    width: 104%;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+.fog {
+    /* border: 2px solid red; */
+    width: 104%;
+    display: flex;
+    justify-content: end;
+    margin: 20px 0px;
+    font-size: 0.9rem;
+    color: #0866ff;
+    cursor: pointer;
+}
+
+.donthave {
+    display: flex;
+    gap: 5px;
+    margin: 25px 0px;
+    font-size: 0.8rem;
+}
+
+.sup {
+    color: #0866ff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* footer */
+.from {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: auto;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(210, 210, 210);
+}
+
+.from>p {
+    font-size: 0.8rem;
+    padding-top: 8px;
+    color: gray;
+}
+
+.metalogo {
+    width: 8%;
+    padding-bottom: 5px;
+}
+
+.dateandtime {
+    height: 0px;
+    visibility: hidden;
+}
+
+#mssgg {
+    width: 110%;
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .instalogoo {
+        width: 30%;
+        margin: 30px 0px;
+    }
+
+    .instaform {
+        width: 30%;
+        height: 40%;
+        gap: 40px;
+    }
+
+    .metalogo {
+        width: 10%;
+        padding-bottom: 5px;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .instalogoo {
+        width: 35%;
+        margin: 30px 0px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .instalogoo {
+        width: 35%;
+        margin: 30px 0px;
+    }
+
+    .instaform {
+        width: 40%;
+        gap: 20px;
+    }
+
+    .metalogo {
+        width: 13%;
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .instalogoo {
+        width: 45%;
+        margin: 30px 0px;
+    }
+
+    .instaform {
+        width: 50%;
+        gap: 20px;
+    }
+
+    .fb{
+        margin-top: 100px;
+    }
+    .metalogo {
+        width: 15%;
+        padding-bottom: 5px;
+    }
+    .arrow {
+        width:100px;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .instalogoo {
+        width: 60%;
+        margin: 30px 0px;
+    }
+
+    .instaform {
+        width: 70%;
+        gap: 20px;
+    }
+
+    .metalogo {
+        width: 20%;
+        padding-bottom: 5px;
+    }
+}
